@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background: black;
+    z-index: 10;
+
+}
+
+.logo {
+    margin: 3px 3px;
+}
+
+.logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 3vw;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 0px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background: white;
+}
+
+
+h1 {
+    font-size: 2.8rem;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.img {
+    text-align: center;
+    align-items: center;
+}
+
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.ingredients {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+}
+
+.video {
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    padding: 2vw;
+}
